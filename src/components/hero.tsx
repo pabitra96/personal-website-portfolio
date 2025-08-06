@@ -89,7 +89,7 @@ export function Hero() {
             className="inline-block mb-4"
           >
             <span className="inline-flex items-center px-4 py-2 rounded-full text-sm font-semibold bg-gradient-to-r from-emerald-100 to-blue-100 text-emerald-800 border border-emerald-200 shadow-sm">
-              <span className="w-2 h-2 bg-emerald-500 rounded-full mr-2 animate-pulse"></span>
+              <span className="w-2 h-1 bg-emerald-500 rounded-full mr-2 animate-pulse"></span>
               Available for opportunities
             </span>
           </motion.div>
@@ -121,7 +121,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6 }}
-            className="text-xl md:text-2xl lg:text-2xl text-slate-700 font-medium tracking-wide"
+            className="text-xl md:text-2xl lg:text-xl text-slate-700 font-medium tracking-wide"
           >
             <span className="bg-gradient-to-r from-slate-600 to-slate-800 bg-clip-text text-transparent">
               {PERSONAL_INFO.title}
@@ -133,7 +133,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8 }}
-            className="text-base md:text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed tracking-wide"
+            className="text-base md:text-lg text-slate-600 max-w-5xl mx-auto leading-relaxed tracking-wide"
           >
             Full Stack Developer with 4+ years of experience currently working at Cognizant and having a strong track record of translating complex requirements into scalable solutions. Master in developing AI products using AI agents and LLMs.
           </motion.p>

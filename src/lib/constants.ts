@@ -4,7 +4,7 @@ export const PERSONAL_INFO = {
   email: "write2pabitra@gmail.com",
   phone: "+918967717327",
   location: "Kolkata, India",
-  linkedin: "linkedin.com/in/pabitra-jiban",
+  linkedin: "https://linkedin.com/in/pabitra-jiban",
   github: "github.com/pabitra-maity",
   portfolio: "pabitra-maity.dev"
 }
@@ -18,12 +18,51 @@ export const NAVIGATION_ITEMS = [
 ]
 
 export const SKILLS = {
-  "Programming Languages": ["C", "Python", "Java", "JavaScript", "TypeScript"],
-  "Framework and Web Technology": ["React.js", "Next.js", "Spring Boot", "Node.js", "Express.js"],
-  "Generative AI Model and Platform": ["GPT-3.5-turbo", "GPT-4", "Llama", "Hugging Face", "Sage Maker", "Kore.ai XO Platform"],
-  "Cloud Technology (AWS)": ["AWS Textract", "Lambda", "CloudFront", "S3", "Sage Maker", "DynamoDB", "Bedrock"],
-  "DevOps Essentials": ["Docker", "Kubernetes", "Jenkins", "Git", "Bitbucket", "CI/CD"],
-  "RPA Tools And Technology": ["UiPath", "Pega Robotics", "Power Automate", "Automation Anywhere"]
+  "Programming Languages": [
+    { name: "Python", confidence: 9 },
+    { name: "Java", confidence: 8 },
+    { name: "JavaScript", confidence: 8 },
+    { name: "TypeScript", confidence: 7 },
+    { name: "C", confidence: 6 }
+  ],
+  "Framework and Web Technology": [
+    { name: "React.js", confidence: 9 },
+    { name: "Next.js", confidence: 8 },
+    { name: "Spring Boot", confidence: 7 },
+    { name: "Node.js", confidence: 7 },
+    { name: "Express.js", confidence: 6 }
+  ],
+  "Generative AI Model and Platform": [
+    { name: "GPT-4", confidence: 9 },
+    { name: "GPT-3.5-turbo", confidence: 9 },
+    { name: "Kore.ai XO Platform", confidence: 8 },
+    { name: "Hugging Face", confidence: 7 },
+    { name: "Sage Maker", confidence: 7 },
+    { name: "Llama", confidence: 6 }
+  ],
+  "Cloud Technology (AWS)": [
+    { name: "AWS Lambda", confidence: 8 },
+    { name: "AWS S3", confidence: 8 },
+    { name: "AWS Textract", confidence: 8 },
+    { name: "DynamoDB", confidence: 7 },
+    { name: "CloudFront", confidence: 6 },
+    { name: "Sage Maker", confidence: 7 },
+    { name: "Bedrock", confidence: 6 }
+  ],
+  "DevOps Essentials": [
+    { name: "Git", confidence: 9 },
+    { name: "Docker", confidence: 7 },
+    { name: "CI/CD", confidence: 7 },
+    { name: "Jenkins", confidence: 6 },
+    { name: "Bitbucket", confidence: 8 },
+    { name: "Kubernetes", confidence: 5 }
+  ],
+  "RPA Tools And Technology": [
+    { name: "UiPath", confidence: 8 },
+    { name: "Pega Robotics", confidence: 8 },
+    { name: "Power Automate", confidence: 7 },
+    { name: "Automation Anywhere", confidence: 6 }
+  ]
 }
 
 export const EXPERIENCE = [
